@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--       th:text <p th:text="${name}">name</p><br>-->
+<!--       th:utext <p th:utext="${name}">name</p>-->
+
+<h1> 变量表达式 </h1>
+中餐厅老板:<span th:text="${restaurant.boss}"> boss </span>
+<br>
+中餐厅大厨:<span th:text="${restaurant.chef}">chef</span>
+<br>
+
+<h1>选择变量表达式</h1>
+中餐厅<span th:object="${restaurant}">
+    <br>
+    老板:<span th:text="*{boss}"> boss</span>
+    <br>
+    大厨:<span th:text="${restaurant.chef}"> chef</span>
+      </span>
+
+<h1>链接URL表达式</h1>
+<a href="www.baidu.com" th:href="@{http://www.taobao.com}">点我有惊喜</a>
+
+<h1>消息表达式</h1>
+<p th:text="#{message}"> message</p>
+
+<h1>片段表达式</h1>
+<div th:insert="foot::copy"></div>
+<div th:replace="foot::copy"></div>
+<div th:include="foot::copy"></div>
+
+</body>
+</html>

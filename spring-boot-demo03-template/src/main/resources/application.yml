@@ -1,0 +1,9 @@
+#配置 FreeMarker 路径
+
+#spring:
+#  mvc:
+#    view:
+#      prefix: /templates/
+#      suffix: .ftl
+
+

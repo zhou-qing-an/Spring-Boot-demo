@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot-demo.iml" filepath="$PROJECT_DIR$/Spring-Boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestProperties/TestProperties.iml" filepath="$PROJECT_DIR$/TestProperties/TestProperties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-05-orm-mybatis/spring-boot-05-orm-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-05-orm-mybatis/spring-boot-05-orm-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-06-event/spring-boot-06-event.iml" filepath="$PROJECT_DIR$/spring-boot-06-event/spring-boot-06-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-06-mybatis-puls/spring-boot-06-mybatis-puls.iml" filepath="$PROJECT_DIR$/spring-boot-06-mybatis-puls/spring-boot-06-mybatis-puls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-07-testwar/spring-boot-07-testwar.iml" filepath="$PROJECT_DIR$/spring-boot-07-testwar/spring-boot-07-testwar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-07-web/spring-boot-07-web.iml" filepath="$PROJECT_DIR$/spring-boot-07-web/spring-boot-07-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-curd-restful/spring-boot-curd-restful.iml" filepath="$PROJECT_DIR$/spring-boot-curd-restful/spring-boot-curd-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo03-template/spring-boot-demo03-template.iml" filepath="$PROJECT_DIR$/spring-boot-demo03-template/spring-boot-demo03-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-orm-jpa/spring-boot-orm-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-orm-jpa/spring-boot-orm-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-thymeleaf-cutd/springboot-thymeleaf-cutd.iml" filepath="$PROJECT_DIR$/springboot-thymeleaf-cutd/springboot-thymeleaf-cutd.iml" />
+    </modules>
+  </component>
+</project>

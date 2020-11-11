@@ -1,0 +1,23 @@
+#server:
+#  port: 8090
+
+spring:
+  datasource:
+    db1:
+      jdbc-url: jdbc:mysql://localhost:3306/kaoshi?serverTimezone=CST&characterEncoding=UTF-8
+      username: root
+      password: w123
+
+    db2:
+      jdbc-url: jdbc:mysql://localhost:3306/testmybatis?serverTimezone=CST&characterEncoding=UTF-8
+      username: root
+      password: w123
+
+#使用接口配合mybatis-config.xml
+#mybatis:
+#  config-location: classpath:mybatis-config.xml
+
+#替换mybatis-config.xml
+#mybatis:
+#  mapper-locations: classpath*:/mybatis/mapper/*.xml
+#  type-aliases-package: com.qingan.bean

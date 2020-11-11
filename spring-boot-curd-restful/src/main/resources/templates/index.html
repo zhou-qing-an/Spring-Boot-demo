@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{bootstrap.css}">
+
+</head>
+<body>
+    <h1>中餐厅嘉宾如下</h1>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>名字</th>
+                <th>角色</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="guest:${list}">
+                <td th:text="${guest.name}">name</td>
+                <td th:text="${guest.role}">role</td>
+                <td class="col-sm-2"><a th:href="@{guest/toUpdate/}+${guest.name}"> 编辑 </a></td>
+<!--                <td class="col-sm-2"><a th:href="@{delete(name=${guest.name})}"> 删除 </a></td>-->
+                <button th:attr="del_url=@{/guest/}+${guest.name}" name="but_del">删除</button>
+            </tr>
+        </tbody>
+    </table>
+     <div class="form-group">
+        <div class="col-sm-2 control-label">
+            <a th:href="@{/guest/toAdd}" class="btn btn-info" href="toAdd"> 添加 </a>
+        </div>
+     </div>
+
+    <form method="post" id="del_form">
+        <input type="hidden" name="_method" value="delete">
+    </form>
+
+    <script type="text/javascript" th:src="@{webjars/jquery/3.4.1/jquery.js}"></script>
+    <script type="text/javascript">
+        $("input[name='but_del']").onclick(function(){
+            $("#del_form").prop("action",$(this).attr("del_url")).submit();
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

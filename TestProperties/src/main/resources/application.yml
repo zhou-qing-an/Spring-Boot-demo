@@ -1,0 +1,47 @@
+#server:
+#  port: 8070
+
+food:
+  meat: 烤肉
+  rice: 拌饭
+  sauce:
+    - 咖喱
+    - 香辣
+    - 原味
+
+#  流操作
+#food: {meat: 烤肉,rice: 拌饭,sauce: 咖喱 原味}
+
+
+jasypt:
+  encryptor:
+    password: wsnd
+
+one:
+  username: ENC(PE+M9pqzkKSwpew05LwOow==)
+  password: ENC(XRNEkxNLJuHqxR4nrzO73g==)
+
+
+
+spring:
+  profiles:
+    active: prod
+
+---
+#开发环境
+spring:
+  profiles: dev
+
+server:
+  port: 8090
+
+...
+
+---
+# 生产环境
+spring:
+  profiles: prod
+
+server:
+  port: 8010
+...

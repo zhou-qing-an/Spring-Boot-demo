@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-06-mybatis-puls" />
+        <module name="HelloWorld" />
+        <module name="TestProperties" />
+        <module name="springboot-thymeleaf-cutd" />
+        <module name="spring-boot-05-orm-mybatis" />
+        <module name="spring-boot-06-event" />
+        <module name="spring-boot-orm-jpa" />
+        <module name="spring-boot-07-testwar" />
+        <module name="spring-boot-demo03-template" />
+        <module name="spring-boot-curd-restful" />
+        <module name="spring-boot-07-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Config" target="1.8" />
+      <module name="HelloWorld" target="1.8" />
+      <module name="spring-boot-05-orm-mybatis" target="1.8" />
+      <module name="spring-boot-06-event" target="1.8" />
+      <module name="spring-boot-06-mybatis-puls" target="1.8" />
+      <module name="spring-boot-07-testwar" target="1.8" />
+      <module name="spring-boot-07-web" target="1.8" />
+      <module name="spring-boot-curd-restful" target="1.8" />
+      <module name="spring-boot-demo03-template" target="1.8" />
+      <module name="spring-boot-orm-jpa" target="1.8" />
+      <module name="springboot-thymeleaf-cutd" target="1.8" />
+      <module name="TestProperties" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Config" options="-parameters" />
+      <module name="HelloWorld" options="-parameters" />
+      <module name="TestProperties" options="-parameters" />
+      <module name="spring-boot-05-orm-mybatis" options="-parameters" />
+      <module name="spring-boot-06-event" options="-parameters" />
+      <module name="spring-boot-06-mybatis-puls" options="-parameters" />
+      <module name="spring-boot-07-testwar" options="-parameters" />
+      <module name="spring-boot-07-web" options="-parameters" />
+      <module name="spring-boot-curd-restful" options="-parameters" />
+      <module name="spring-boot-demo03-template" options="-parameters" />
+      <module name="spring-boot-orm-jpa" options="-parameters" />
+      <module name="springboot-thymeleaf-cutd" options="-parameters" />
+    </option>
+  </component>
+</project>
